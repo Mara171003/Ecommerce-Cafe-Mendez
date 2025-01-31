@@ -21,7 +21,7 @@ namespace CafeMendez.UI.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Contexto", throwIfV1Schema: false)
         {
         }
 
