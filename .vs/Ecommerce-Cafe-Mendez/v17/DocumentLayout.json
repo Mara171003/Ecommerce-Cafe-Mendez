@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\XPC\\source\\repos\\Ecommerce-Cafe-Mendez\\",
+  "WorkspaceRootPath": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -11,10 +11,6 @@
           "DockedWidth": 1113,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"

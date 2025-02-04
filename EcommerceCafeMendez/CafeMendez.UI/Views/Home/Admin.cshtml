@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Café Méndez</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="sty<lesheet" type="text/css" href="~/Content/css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="~/Content/css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="~/Content/images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="~/Content/css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/Content/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body>
+    <!--header section start -->
+    <div class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "Home")">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("About", "Home")">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Gallery", "Home")">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Contact", "Home")">Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--header section end -->
+    <!-- services section start -->
+    <div class="services_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="services_taital" style="color: Red;">Panel de Control Administrador</h1>
+                    <p class="services_taital" style="color: Black;">Acceso Restringido, los cambios realizados en este modo deben ser hechos con cuidado</p>
+                </div>
+            </div>
+            <div class="services_section_2">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-4">
+                        <div class="box_main">
+                            <div class="house_icon">
+                                <img src="~/Content/images/icon3.png" class="image_1">
+                                <img src="~/Content/images/icon3.png" class="image_2">
+                            </div>
+                            <h3 class="decorate_text">Códigos Promocionales</h3>
+                            <p class="tation_text">Gestiona códigos promocionales: listar, crear, editar o eliminar.</p>
+                            <div class="readmore_bt">
+                                <a href="@Url.Action("Listar", "PromoCodes")">Ver Listado</a>
+                                <a href="@Url.Action("Crear", "PromoCodes")">Crear Nuevo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-4">
+                        <div class="box_main">
+                            <div class="house_icon">
+                                <img src="~/Content/images/icon3.png" class="image_1">
+                                <img src="~/Content/images/icon3.png" class="image_2">
+                            </div>
+                            <h3 class="decorate_text">Usuarios</h3>
+                            <p class="tation_text">Crear, Editar, Actualizar o Eliminar usuarios<br> Reestablecer Contraseñas</p>
+                            <div class="readmore_bt"><a href="#">Acceder</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-4">
+                        <div class="box_main">
+                            <div class="house_icon">
+                                <img src="~/Content/images/icon3.png" class="image_1">
+                                <img src="~/Content/images/icon3.png" class="image_2">
+                            </div>
+                            <h3 class="decorate_text">Ofertas</h3>
+                            <p class="tation_text">Crear, Editar, Actualizar o Eliminar Descuentos y códigos promocionales</p>
+                            <div class="readmore_bt"><a href="#">Acceder</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- services section end -->
+        <!-- footer section start -->
+        <div class="footer_section layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="useful_text">About</h3>
+                        <p class="footer_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="useful_text">Menu</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="~/Views/Home/Index.cshtml">Inicio</a></li>
+                                <li><a href="~/Views/Home/About.cshtml">Acerca de Nosotros</a></li>
+                                <li><a href="~/Views/Home/Gallery.cshtml">Galeria</a></li>
+                                <li><a href="~/Views/Home/Contact.cshtml">Contactenos</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h1 class="useful_text">Useful Link</h1>
+                        <p class="dummy_text">Adipiscing Elit, sed do Eiusmod Tempor incididunt </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h1 class="useful_text">Contact Us</h1>
+                        <div class="location_text">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10">Address : Loram Ipusm</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">Call : +01 1234567890</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Email : demo@gmail.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer section end -->
+        <!-- copyright section start -->
+        <div class="copyright_section">
+            <div class="container">
+                <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
+            </div>
+        </div>
+        <!-- copyright section end -->
+        <script src="@Url.Content("~/Scripts/js/jquery.min.js")"></script>
+        <script src="@Url.Content("~/Scripts/js/popper.min.js")"></script>
+        <script src="@Url.Content("~/Scripts/js/bootstrap.bundle.min.js")"></script>
+        <script src="@Url.Content("~/Scripts/js/jquery-3.0.0.min.js")"></script>
+        <script src="@Url.Content("~/Scripts/js/plugin.js")"></script>
+        <!-- sidebar -->
+        <script src="@Url.Content("~/Scripts/js/jquery.mCustomScrollbar.concat.min.js")"></script>
+        <script src="@Url.Content("~/Scripts/js/custom.js")"></script>
+</body>
+</html>

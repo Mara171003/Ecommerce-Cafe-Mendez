@@ -26,5 +26,21 @@ namespace CafeMendez.UI.Controllers
 
             return View();
         }
+
+        public ActionResult Gallery()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+
+
+        }
+
+        public ActionResult Admin()
+        {
+            ViewBag.Message = "Admin page";
+
+            return View();
+        }
     }
 }
