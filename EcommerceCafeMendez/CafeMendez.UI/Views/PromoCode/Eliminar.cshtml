@@ -1,7 +1,7 @@
 ﻿@model CafeMendez.UI.dataBase.PromoCodes
 
 @{
-    ViewBag.Title = "Eliminar Código Promocional";
+    ViewBag.Title = "Eliminar";
 }
 
 <h2>Eliminar Código Promocional</h2>
@@ -26,7 +26,7 @@
     </dl>
 </div>
 
-@using (Html.BeginForm("Eliminar", "PromoCodes", FormMethod.Post))
+@using (Html.BeginForm("Eliminar", "PromoCode", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
     @Html.HiddenFor(model => model.Id)

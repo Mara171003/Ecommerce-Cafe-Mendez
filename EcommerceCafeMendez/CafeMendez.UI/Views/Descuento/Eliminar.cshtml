@@ -1,0 +1,36 @@
+﻿@model CafeMendez.UI.dataBase.Descuento
+
+@{
+    ViewBag.Title = "Eliminar Descuento";
+}
+
+<h2>Eliminar Código Promocional</h2>
+
+<h4>¿Estás seguro de que deseas eliminar este código promocional?</h4>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Código:</dt>
+        <dd>@Model.DiscountName</dd>
+
+        <dt>Porcentaje de Descuento:</dt>
+        <dd>@Model.DiscountPercentage%</dd>
+
+        <dt>Fecha de Inicio:</dt>
+        <dd>@Model.StartDate.ToShortDateString()</dd>
+
+        <dt>Fecha de Expiración:</dt>
+        <dd>@Model.ExpirationDate.ToShortDateString()</dd>
+
+        <dt>Estado:</dt>
+        <dd>@(Model.IsActive ? "Activo" : "Inactivo")</dd>
+    </dl>
+</div>
+
+@using (Html.BeginForm("Eliminar", "PromoCode", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.Id)
+
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a href="@Url.Action("Listar")" class="btn btn-secondary">Cancelar</a>
+}

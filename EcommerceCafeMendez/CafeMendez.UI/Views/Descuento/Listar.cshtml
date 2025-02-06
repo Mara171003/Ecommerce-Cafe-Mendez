@@ -1,7 +1,7 @@
-﻿@model IEnumerable<CafeMendez.UI.dataBase.PromoCodes>
+﻿@model IEnumerable<CafeMendez.UI.dataBase.Descuento>
 
 @{
-    ViewBag.Title = "Lista de Códigos Promocionales";
+    ViewBag.Title = "Listar Descuento";
 }
 
 <h2>Lista de Códigos Promocionales</h2>
@@ -23,7 +23,7 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Code</td>
+                <td>@item.DiscountName</td>
                 <td>@item.DiscountPercentage%</td>
                 <td>@item.StartDate.ToShortDateString()</td>
                 <td>@item.ExpirationDate.ToShortDateString()</td>

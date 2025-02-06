@@ -12,6 +12,8 @@ namespace CafeMendez.UI.dataBase
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class Ecommerce_Cafe_MendezEntities1 : DbContext
     {
@@ -25,12 +27,47 @@ namespace CafeMendez.UI.dataBase
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<CarritoItems> CarritoItems { get; set; }
+        public virtual DbSet<Carritos> Carritos { get; set; }
         public virtual DbSet<Categorias> Categorias { get; set; }
         public virtual DbSet<Clientes> Clientes { get; set; }
+        public virtual DbSet<Descuento> Descuento { get; set; }
         public virtual DbSet<DetalleVentas> DetalleVentas { get; set; }
+        public virtual DbSet<Favoritos> Favoritos { get; set; }
         public virtual DbSet<Inventario> Inventario { get; set; }
         public virtual DbSet<Productos> Productos { get; set; }
         public virtual DbSet<PromoCodes> PromoCodes { get; set; }
+        public virtual DbSet<Usuarios> Usuarios { get; set; }
         public virtual DbSet<Ventas> Ventas { get; set; }
+    
+        public virtual int AgregarAlCarrito(string usuarioID, Nullable<int> productoID, Nullable<int> cantidad)
+        {
+            var usuarioIDParameter = usuarioID != null ?
+                new ObjectParameter("UsuarioID", usuarioID) :
+                new ObjectParameter("UsuarioID", typeof(string));
+    
+            var productoIDParameter = productoID.HasValue ?
+                new ObjectParameter("ProductoID", productoID) :
+                new ObjectParameter("ProductoID", typeof(int));
+    
+            var cantidadParameter = cantidad.HasValue ?
+                new ObjectParameter("Cantidad", cantidad) :
+                new ObjectParameter("Cantidad", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("AgregarAlCarrito", usuarioIDParameter, productoIDParameter, cantidadParameter);
+        }
+    
+        public virtual ObjectResult<BuscarProductos_Result> BuscarProductos(string searchTerm, string categoria)
+        {
+            var searchTermParameter = searchTerm != null ?
+                new ObjectParameter("SearchTerm", searchTerm) :
+                new ObjectParameter("SearchTerm", typeof(string));
+    
+            var categoriaParameter = categoria != null ?
+                new ObjectParameter("Categoria", categoria) :
+                new ObjectParameter("Categoria", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<BuscarProductos_Result>("BuscarProductos", searchTermParameter, categoriaParameter);
+        }
     }
 }

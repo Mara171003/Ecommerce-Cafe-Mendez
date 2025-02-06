@@ -18,6 +18,13 @@ namespace CafeMendez.UI
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+    name: "Carrito",
+    url: "Carrito/{action}/{id}",
+    defaults: new { controller = "Carrito", action = "VerCarrito", id = UrlParameter.Optional }
+);
+
         }
     }
 }

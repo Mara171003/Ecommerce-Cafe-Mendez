@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="Ecommerce_Cafe_MendezModelStoreContainer" CdmEntityContainer="Ecommerce_Cafe_MendezEntities1">
+    <EntitySetMapping Name="CarritoItems">
+      <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.CarritoItems">
+        <MappingFragment StoreEntitySet="CarritoItems">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="CarritoID" ColumnName="CarritoID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Carritos">
+      <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.Carritos">
+        <MappingFragment StoreEntitySet="Carritos">
+          <ScalarProperty Name="CarritoID" ColumnName="CarritoID" />
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="Categorias">
       <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.Categorias">
         <MappingFragment StoreEntitySet="Categorias">
@@ -21,6 +41,18 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Descuento">
+      <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.Descuento">
+        <MappingFragment StoreEntitySet="Descuento">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DiscountName" ColumnName="DiscountName" />
+          <ScalarProperty Name="DiscountPercentage" ColumnName="DiscountPercentage" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="DetalleVentas">
       <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.DetalleVentas">
         <MappingFragment StoreEntitySet="DetalleVentas">
@@ -29,6 +61,16 @@
           <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
           <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
           <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Favoritos">
+      <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.Favoritos">
+        <MappingFragment StoreEntitySet="Favoritos">
+          <ScalarProperty Name="FavoritoID" ColumnName="FavoritoID" />
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="FechaAgregado" ColumnName="FechaAgregado" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -66,6 +108,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+          <ScalarProperty Name="ContraseñaHash" ColumnName="ContraseñaHash" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="Ventas">
       <EntityTypeMapping TypeName="Ecommerce_Cafe_MendezModel.Ventas">
         <MappingFragment StoreEntitySet="Ventas">
@@ -76,5 +129,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AgregarAlCarrito" FunctionName="Ecommerce_Cafe_MendezModel.Store.AgregarAlCarrito" />
+    <FunctionImportMapping FunctionImportName="BuscarProductos" FunctionName="Ecommerce_Cafe_MendezModel.Store.BuscarProductos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ecommerce_Cafe_MendezModel.BuscarProductos_Result">
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

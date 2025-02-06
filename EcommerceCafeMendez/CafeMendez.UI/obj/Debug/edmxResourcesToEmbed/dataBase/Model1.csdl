@@ -1,5 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Ecommerce_Cafe_MendezModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CarritoItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CarritoID" Type="Int32" Nullable="false" />
+    <Property Name="ProductoID" Type="Int32" Nullable="false" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Carritos" Relationship="Self.FK__CarritoIt__Carri__628FA481" FromRole="CarritoItems" ToRole="Carritos" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK__CarritoIt__Produ__6383C8BA" FromRole="CarritoItems" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Carritos">
+    <Key>
+      <PropertyRef Name="CarritoID" />
+    </Key>
+    <Property Name="CarritoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UsuarioID" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="SessionID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="CarritoItems" Relationship="Self.FK__CarritoIt__Carri__628FA481" FromRole="Carritos" ToRole="CarritoItems" />
+  </EntityType>
   <EntityType Name="Categorias">
     <Key>
       <PropertyRef Name="CategoriaID" />
@@ -20,6 +41,17 @@
     <Property Name="Direccion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="Ventas" Relationship="Self.FK_Ventas_Clientes" FromRole="Clientes" ToRole="Ventas" />
   </EntityType>
+  <EntityType Name="Descuento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DiscountName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DiscountPercentage" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ExpirationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+  </EntityType>
   <EntityType Name="DetalleVentas">
     <Key>
       <PropertyRef Name="DetalleID" />
@@ -31,6 +63,17 @@
     <Property Name="Subtotal" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
     <NavigationProperty Name="Productos" Relationship="Self.FK_DetalleVentas_Productos" FromRole="DetalleVentas" ToRole="Productos" />
     <NavigationProperty Name="Ventas" Relationship="Self.FK_DetalleVentas_Ventas" FromRole="DetalleVentas" ToRole="Ventas" />
+  </EntityType>
+  <EntityType Name="Favoritos">
+    <Key>
+      <PropertyRef Name="FavoritoID" />
+    </Key>
+    <Property Name="FavoritoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UsuarioID" Type="Int32" Nullable="false" />
+    <Property Name="ProductoID" Type="Int32" Nullable="false" />
+    <Property Name="FechaAgregado" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK_Favoritos_Productos" FromRole="Favoritos" ToRole="Productos" />
+    <NavigationProperty Name="Usuarios" Relationship="Self.FK_Favoritos_Usuarios" FromRole="Favoritos" ToRole="Usuarios" />
   </EntityType>
   <EntityType Name="Inventario">
     <Key>
@@ -51,8 +94,10 @@
     <Property Name="Categoria" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
     <Property Name="CategoriaID" Type="Int32" />
+    <NavigationProperty Name="CarritoItems" Relationship="Self.FK__CarritoIt__Produ__6383C8BA" FromRole="Productos" ToRole="CarritoItems" />
     <NavigationProperty Name="Categorias" Relationship="Self.FK_Productos_Categorias" FromRole="Productos" ToRole="Categorias" />
     <NavigationProperty Name="DetalleVentas" Relationship="Self.FK_DetalleVentas_Productos" FromRole="Productos" ToRole="DetalleVentas" />
+    <NavigationProperty Name="Favoritos" Relationship="Self.FK_Favoritos_Productos" FromRole="Productos" ToRole="Favoritos" />
   </EntityType>
   <EntityType Name="PromoCodes">
     <Key>
@@ -65,6 +110,17 @@
     <Property Name="ExpirationDate" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="IsActive" Type="Boolean" Nullable="false" />
   </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="UsuarioID" />
+    </Key>
+    <Property Name="UsuarioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Rol" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContraseñaHash" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Favoritos" Relationship="Self.FK_Favoritos_Usuarios" FromRole="Usuarios" ToRole="Favoritos" />
+  </EntityType>
   <EntityType Name="Ventas">
     <Key>
       <PropertyRef Name="VentaID" />
@@ -76,6 +132,30 @@
     <NavigationProperty Name="Clientes" Relationship="Self.FK_Ventas_Clientes" FromRole="Ventas" ToRole="Clientes" />
     <NavigationProperty Name="DetalleVentas" Relationship="Self.FK_DetalleVentas_Ventas" FromRole="Ventas" ToRole="DetalleVentas" />
   </EntityType>
+  <Association Name="FK__CarritoIt__Carri__628FA481">
+    <End Role="Carritos" Type="Self.Carritos" Multiplicity="1" />
+    <End Role="CarritoItems" Type="Self.CarritoItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Carritos">
+        <PropertyRef Name="CarritoID" />
+      </Principal>
+      <Dependent Role="CarritoItems">
+        <PropertyRef Name="CarritoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CarritoIt__Produ__6383C8BA">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="CarritoItems" Type="Self.CarritoItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="CarritoItems">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_Productos_Categorias">
     <End Role="Categorias" Type="Self.Categorias" Multiplicity="0..1" />
     <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
@@ -124,14 +204,51 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_Favoritos_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="Favoritos" Type="Self.Favoritos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="Favoritos">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Favoritos_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="Favoritos" Type="Self.Favoritos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="Favoritos">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="Ecommerce_Cafe_MendezEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CarritoItems" EntityType="Self.CarritoItems" />
+    <EntitySet Name="Carritos" EntityType="Self.Carritos" />
     <EntitySet Name="Categorias" EntityType="Self.Categorias" />
     <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="Descuento" EntityType="Self.Descuento" />
     <EntitySet Name="DetalleVentas" EntityType="Self.DetalleVentas" />
+    <EntitySet Name="Favoritos" EntityType="Self.Favoritos" />
     <EntitySet Name="Inventario" EntityType="Self.Inventario" />
     <EntitySet Name="Productos" EntityType="Self.Productos" />
     <EntitySet Name="PromoCodes" EntityType="Self.PromoCodes" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
     <EntitySet Name="Ventas" EntityType="Self.Ventas" />
+    <AssociationSet Name="FK__CarritoIt__Carri__628FA481" Association="Self.FK__CarritoIt__Carri__628FA481">
+      <End Role="Carritos" EntitySet="Carritos" />
+      <End Role="CarritoItems" EntitySet="CarritoItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CarritoIt__Produ__6383C8BA" Association="Self.FK__CarritoIt__Produ__6383C8BA">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="CarritoItems" EntitySet="CarritoItems" />
+    </AssociationSet>
     <AssociationSet Name="FK_Productos_Categorias" Association="Self.FK_Productos_Categorias">
       <End Role="Categorias" EntitySet="Categorias" />
       <End Role="Productos" EntitySet="Productos" />
@@ -148,5 +265,29 @@
       <End Role="Ventas" EntitySet="Ventas" />
       <End Role="DetalleVentas" EntitySet="DetalleVentas" />
     </AssociationSet>
+    <AssociationSet Name="FK_Favoritos_Productos" Association="Self.FK_Favoritos_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Favoritos" EntitySet="Favoritos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Favoritos_Usuarios" Association="Self.FK_Favoritos_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Favoritos" EntitySet="Favoritos" />
+    </AssociationSet>
+    <FunctionImport Name="AgregarAlCarrito">
+      <Parameter Name="UsuarioID" Mode="In" Type="String" />
+      <Parameter Name="ProductoID" Mode="In" Type="Int32" />
+      <Parameter Name="Cantidad" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="BuscarProductos" ReturnType="Collection(Ecommerce_Cafe_MendezModel.BuscarProductos_Result)">
+      <Parameter Name="SearchTerm" Mode="In" Type="String" />
+      <Parameter Name="Categoria" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
+  <ComplexType Name="BuscarProductos_Result">
+    <Property Type="Int32" Name="ProductoID" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Categoria" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="Precio" Nullable="false" Precision="10" Scale="2" />
+    <Property Type="Int32" Name="CategoriaID" Nullable="true" />
+  </ComplexType>
 </Schema>

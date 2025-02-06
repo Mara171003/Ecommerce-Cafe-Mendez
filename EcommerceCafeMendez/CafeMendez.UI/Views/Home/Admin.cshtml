@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewBag.Title = "Admin";
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- basic -->
@@ -79,8 +82,8 @@
                             <h3 class="decorate_text">Códigos Promocionales</h3>
                             <p class="tation_text">Gestiona códigos promocionales: listar, crear, editar o eliminar.</p>
                             <div class="readmore_bt">
-                                <a href="@Url.Action("Listar", "PromoCodes")">Ver Listado</a>
-                                <a href="@Url.Action("Crear", "PromoCodes")">Crear Nuevo</a>
+                                <a href="@Url.Action("Listar", "PromoCode")">Ver Listado</a>
+                                <a href="@Url.Action("Crear", "PromoCode")">Crear Nuevo</a>
                             </div>
                         </div>
                     </div>
@@ -101,9 +104,14 @@
                                 <img src="~/Content/images/icon3.png" class="image_1">
                                 <img src="~/Content/images/icon3.png" class="image_2">
                             </div>
-                            <h3 class="decorate_text">Ofertas</h3>
-                            <p class="tation_text">Crear, Editar, Actualizar o Eliminar Descuentos y códigos promocionales</p>
+                          
                             <div class="readmore_bt"><a href="#">Acceder</a></div>
+                            <h3 class="decorate_text">Descuentos</h3>
+                            <p class="tation_text">Gestiona códigos promocionales: listar, crear, editar o eliminar.</p>
+                            <div class="readmore_bt">
+                                <a href="@Url.Action("Listar", "Descuento")">Ver Listado</a>
+                                <a href="@Url.Action("Crear", "Descuento")">Crear Nuevo</a>
+                            </div>
                         </div>
                     </div>
                 </div>

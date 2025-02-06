@@ -1,0 +1,28 @@
+﻿@model List<CafeMendez.UI.Models.FavoritoViewModel>
+
+<h2>Mis Favoritos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre del Producto</th>
+            <th>Fecha Agregado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NombreProducto</td>
+                <td>@item.FechaAgregado.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <form method="post" action="@Url.Action("EliminarFavorito", "Favoritos")" style="display:inline;">
+                        <input type="hidden" name="favoritoID" value="@item.FavoritoID" />
+                        <button type="submit" class="btn btn-danger">🗑️ Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -184,16 +184,35 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CarritoController.cs" />
+    <Compile Include="Controllers\DescuentoController.cs" />
+    <Compile Include="Controllers\FavoritosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductosController.cs" />
     <Compile Include="Controllers\PromoCodeController.cs" />
+    <Compile Include="dataBase\BuscarProductos_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dataBase\CarritoItems.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dataBase\Carritos.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="dataBase\Categorias.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="dataBase\Clientes.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="dataBase\Descuento.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="dataBase\DetalleVentas.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dataBase\Favoritos.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="dataBase\Inventario.cs">
@@ -220,6 +239,9 @@
     <Compile Include="dataBase\PromoCodes.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="dataBase\Usuarios.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="dataBase\Ventas.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -227,8 +249,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Carrito.cs" />
+    <Compile Include="Models\CarritoItem.cs" />
+    <Compile Include="Models\Descuento.cs" />
+    <Compile Include="Models\Favorito.cs" />
+    <Compile Include="Models\FavoritoViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Producto.cs" />
     <Compile Include="Models\PromoCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -395,10 +423,17 @@
     <Content Include="Scripts\js\bootstrap.min.js.map" />
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\Admin.cshtml" />
-    <Content Include="Views\PromoCodes\Listar.cshtml" />
-    <Content Include="Views\PromoCodes\crear.cshtml" />
-    <Content Include="Views\PromoCodes\Editar.cshtml" />
-    <Content Include="Views\PromoCodes\Eliminar.cshtml" />
+    <Content Include="Views\PromoCode\Listar.cshtml" />
+    <Content Include="Views\PromoCode\Crear.cshtml" />
+    <Content Include="Views\PromoCode\Editar.cshtml" />
+    <Content Include="Views\PromoCode\Eliminar.cshtml" />
+    <Content Include="Views\Productos\Listar.cshtml" />
+    <Content Include="Views\Carrito\VerCarrito.cshtml" />
+    <Content Include="Views\Favoritos\MisFavoritos.cshtml" />
+    <Content Include="Views\Descuento\Crear.cshtml" />
+    <Content Include="Views\Descuento\Editar.cshtml" />
+    <Content Include="Views\Descuento\Eliminar.cshtml" />
+    <Content Include="Views\Descuento\Listar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

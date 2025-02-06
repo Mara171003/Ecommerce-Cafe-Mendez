@@ -3,40 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\database\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\database\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\controllers\\promocodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\controllers\\promocodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\controllers\\descuentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\controllers\\descuentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\views\\promocodes\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\promocodes\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\descuento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\descuento\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\views\\promocodes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\promocodes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\promocode\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\promocode\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\views\\promocodes\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\promocodes\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\productos\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\productos\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\views\\promocodes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\promocodes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\models\\favoritoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\models\\favoritoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\favoritos\\misfavoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\favoritos\\misfavoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\carrito\\vercarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\carrito\\vercarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\models\\carritoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\models\\carritoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\promocode\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\promocode\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\home\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\home\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\cafemendez.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\models\\promocode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\models\\promocode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|c:\\users\\ivmor\\source\\repos\\ecommerce-cafe-mendez\\ecommercecafemendez\\cafemendez.ui\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA25CE09-E808-4F0C-B85B-D12AC9FBEE1A}|CafeMendez.UI\\CafeMendez.UI.csproj|solutionrelative:cafemendez.ui\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,110 +87,213 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Home\\Admin.cshtml",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Home\\Admin.cshtml",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Home\\Admin.cshtml",
-              "RelativeToolTip": "CafeMendez.UI\\Views\\Home\\Admin.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAwwG4AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T04:38:37.94Z",
-              "EditorCaption": ""
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\dataBase\\Model1.edmx",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\dataBase\\Model1.edmx",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\dataBase\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "CafeMendez.UI\\dataBase\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-06T23:05:17.975Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Eliminar.cshtml",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\Eliminar.cshtml",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\PromoCodes\\Eliminar.cshtml",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\Eliminar.cshtml",
-              "RelativeToolTip": "CafeMendez.UI\\Views\\PromoCodes\\Eliminar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T04:31:51.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\Editar.cshtml",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\PromoCodes\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\Editar.cshtml",
-              "RelativeToolTip": "CafeMendez.UI\\Views\\PromoCodes\\Editar.cshtml",
+              "DocumentIndex": 1,
+              "Title": "DescuentoController.cs",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\DescuentoController.cs",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Controllers\\DescuentoController.cs",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\DescuentoController.cs",
+              "RelativeToolTip": "CafeMendez.UI\\Controllers\\DescuentoController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T04:31:05.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\crear.cshtml",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\PromoCodes\\crear.cshtml",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\crear.cshtml",
-              "RelativeToolTip": "CafeMendez.UI\\Views\\PromoCodes\\crear.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAIAwwBwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T04:29:38.942Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:04:22.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Listar.cshtml",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\Listar.cshtml",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\PromoCodes\\Listar.cshtml",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCodes\\Listar.cshtml",
-              "RelativeToolTip": "CafeMendez.UI\\Views\\PromoCodes\\Listar.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAIAAAA",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Descuento\\Listar.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Descuento\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Descuento\\Listar.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\Descuento\\Listar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T04:27:37.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PromoCodeController.cs",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\PromoCodeController.cs",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Controllers\\PromoCodeController.cs",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\PromoCodeController.cs",
-              "RelativeToolTip": "CafeMendez.UI\\Controllers\\PromoCodeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T03:35:27.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManageViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\ManageViewModels.cs",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Models\\ManageViewModels.cs",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\ManageViewModels.cs",
-              "RelativeToolTip": "CafeMendez.UI\\Models\\ManageViewModels.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T03:06:05.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PromoCode.cs",
-              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\PromoCode.cs",
-              "RelativeDocumentMoniker": "CafeMendez.UI\\Models\\PromoCode.cs",
-              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\PromoCode.cs",
-              "RelativeToolTip": "CafeMendez.UI\\Models\\PromoCode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T03:05:57.684Z",
+              "WhenOpened": "2025-02-06T22:59:03.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MisFavoritos.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Favoritos\\MisFavoritos.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Favoritos\\MisFavoritos.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Favoritos\\MisFavoritos.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\Favoritos\\MisFavoritos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T22:05:48.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FavoritoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\FavoritoViewModel.cs",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Models\\FavoritoViewModel.cs",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\FavoritoViewModel.cs",
+              "RelativeToolTip": "CafeMendez.UI\\Models\\FavoritoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:07:35.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "CafeMendez.UI\\Controllers\\CarritoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T03:39:58.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCode\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\PromoCode\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCode\\Eliminar.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\PromoCode\\Eliminar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T04:31:51.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Productos\\Listar.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Productos\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Productos\\Listar.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\Productos\\Listar.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAF0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T03:33:54.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarritoItem.cs",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\CarritoItem.cs",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Models\\CarritoItem.cs",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Models\\CarritoItem.cs",
+              "RelativeToolTip": "CafeMendez.UI\\Models\\CarritoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T00:08:55.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAALMBAAAAAAAAAAAwwNIBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T01:16:32.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VerCarrito.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Carrito\\VerCarrito.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Carrito\\VerCarrito.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Carrito\\VerCarrito.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\Carrito\\VerCarrito.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T23:52:00.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CafeMendez.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:04:48.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "CafeMendez.UI\\Controllers\\ManageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:05:04.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CafeMendez.UI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:00:39.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCode\\Editar.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\PromoCode\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\PromoCode\\Editar.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\PromoCode\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-04T04:31:05.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Home\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Home\\Gallery.cshtml",
+              "ToolTip": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Home\\Gallery.cshtml",
+              "RelativeToolTip": "CafeMendez.UI\\Views\\Home\\Gallery.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T02:07:42.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\ivmor\\source\\repos\\Ecommerce-Cafe-Mendez\\EcommerceCafeMendez\\CafeMendez.UI\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "CafeMendez.UI\\Views\\Account\\Register.cshtml",

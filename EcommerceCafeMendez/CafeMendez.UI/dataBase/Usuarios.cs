@@ -12,27 +12,20 @@ namespace CafeMendez.UI.dataBase
     using System;
     using System.Collections.Generic;
     
-    public partial class Productos
+    public partial class Usuarios
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Productos()
+        public Usuarios()
         {
-            this.CarritoItems = new HashSet<CarritoItems>();
-            this.DetalleVentas = new HashSet<DetalleVentas>();
             this.Favoritos = new HashSet<Favoritos>();
         }
     
-        public int ProductoID { get; set; }
+        public int UsuarioID { get; set; }
         public string Nombre { get; set; }
-        public string Categoria { get; set; }
-        public decimal Precio { get; set; }
-        public Nullable<int> CategoriaID { get; set; }
+        public string Correo { get; set; }
+        public string Rol { get; set; }
+        public string ContraseñaHash { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CarritoItems> CarritoItems { get; set; }
-        public virtual Categorias Categorias { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<DetalleVentas> DetalleVentas { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Favoritos> Favoritos { get; set; }
     }

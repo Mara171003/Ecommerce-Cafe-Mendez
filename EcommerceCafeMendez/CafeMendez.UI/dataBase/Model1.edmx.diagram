@@ -4,18 +4,27 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="8e463b7c8adf4d26adcd3289f61c86b2" Name="Diagram1">
-        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Categorias" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Clientes" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.DetalleVentas" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Inventario" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Productos" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.PromoCodes" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Ventas" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+      <Diagram DiagramId="90b548a7c1bf401abde15a4b8e605665" Name="Diagram1">
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.CarritoItems" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Carritos" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Categorias" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Clientes" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Descuento" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.DetalleVentas" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Favoritos" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Inventario" Width="1.5" PointX="7.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Productos" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.PromoCodes" Width="1.5" PointX="7.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Usuarios" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ecommerce_Cafe_MendezModel.Ventas" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK__CarritoIt__Carri__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK__CarritoIt__Produ__6383C8BA" ManuallyRouted="false" />
         <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK_Productos_Categorias" ManuallyRouted="false" />
         <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK_Ventas_Clientes" ManuallyRouted="false" />
         <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK_DetalleVentas_Productos" ManuallyRouted="false" />
         <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK_DetalleVentas_Ventas" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK_Favoritos_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="Ecommerce_Cafe_MendezModel.FK_Favoritos_Usuarios" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -14,16 +14,16 @@ using CafeMendez.UI.dataBase;
 namespace CafeMendez.UI.Controllers
 {
 
-   // [Authorize(Roles = "Admin")] // Asegúrate de tener roles configurados
-    public class PromoCodeController : Controller
+    // [Authorize(Roles = "Admin")] // Asegúrate de tener roles configurados
+    public class DescuentoController : Controller
     {
         private Ecommerce_Cafe_MendezEntities1 db = new Ecommerce_Cafe_MendezEntities1(); // Usa tu contexto EDMX
 
-        // GET: PromoCodes/Listar
+        // GET: Descuento/Listar
         public ActionResult Listar()
         {
-            var promoCodes = db.PromoCodes.ToList();
-            return View(promoCodes);
+            var descuentos = db.Descuento.ToList();
+            return View(descuentos);
         }
 
         // GET: PromoCodes/Crear
@@ -35,51 +35,51 @@ namespace CafeMendez.UI.Controllers
         // POST: PromoCodes/Crear
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Crear(PromoCodes promoCode)
+        public ActionResult Crear(dataBase.Descuento descuento)
         {
             if (ModelState.IsValid)
             {
-                db.PromoCodes.Add(promoCode);
+                db.Descuento.Add(descuento);
                 db.SaveChanges();
                 return RedirectToAction("Listar");
             }
-            return View(promoCode);
+            return View(descuento);
         }
 
         // GET: PromoCodes/Editar/{id}
         public ActionResult Editar(int id)
         {
-            var promoCode = db.PromoCodes.Find(id);
-            if (promoCode == null)
+            var descuento = db.Descuento.Find(id);
+            if (descuento == null)
             {
                 return HttpNotFound();
             }
-            return View(promoCode);
+            return View(descuento);
         }
 
         // POST: PromoCodes/Editar/{id}
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Editar(PromoCodes promoCode)
+        public ActionResult Editar(dataBase.Descuento descuento)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(promoCode).State = System.Data.Entity.EntityState.Modified;
+                db.Entry(descuento).State = System.Data.Entity.EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Listar");
             }
-            return View(promoCode);
+            return View(descuento);
         }
 
         // GET: PromoCodes/Eliminar/{id}
         public ActionResult Eliminar(int id)
         {
-            var promoCode = db.PromoCodes.Find(id);
-            if (promoCode == null)
+            var descuento = db.Descuento.Find(id);
+            if (descuento == null)
             {
                 return HttpNotFound();
             }
-            return View(promoCode);
+            return View(descuento);
         }
 
         // POST: PromoCodes/Eliminar/{id}
@@ -87,10 +87,10 @@ namespace CafeMendez.UI.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult ConfirmarEliminar(int id)
         {
-            var promoCode = db.PromoCodes.Find(id);
-            if (promoCode != null)
+            var descuento = db.Descuento.Find(id);
+            if (descuento != null)
             {
-                db.PromoCodes.Remove(promoCode);
+                db.Descuento.Remove(descuento);
                 db.SaveChanges();
             }
             return RedirectToAction("Listar");
@@ -99,12 +99,12 @@ namespace CafeMendez.UI.Controllers
         // GET: PromoCodes/Detalles/{id}
         public ActionResult Detalles(int id)
         {
-            var promoCode = db.PromoCodes.Find(id);
-            if (promoCode == null)
+            var descuento = db.Descuento.Find(id);
+            if (descuento == null)
             {
                 return HttpNotFound();
             }
-            return View(promoCode);
+            return View(descuento);
         }
     }
 }
